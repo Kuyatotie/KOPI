@@ -290,6 +290,23 @@ section {
   padding: .5ren 0;
 
 }
+.btn1 {
+  display: flex;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 100%;
+  background-color: #f77062;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+.btn1:hover {
+  background: #4837ff;
+  transition: all 0.3s ease;
+}
 
 
 .product .box-container .box:hover {
@@ -476,6 +493,86 @@ button:hover {
 
 .home .content p{
   font-size: 2.5rem ;
+}
+
+.contact-left {
+  margin-left: 3px ;
+  position: absolute;
+  flex-basis: 35%;
+  font-size: 12px;
+  margin-top: 20%;
+  
+}
+
+
+
+.contact-left a {
+  font-weight: 600;
+  margin-top: 25%;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 15px;
+  display: flex;
+  margin: 25px;
+  margin-left: 0;
+
+}
+.contact-left a i {
+  color: crimson;
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+
+
+
+.social-icon {
+margin-top: 5px;
+  display: inline-block;
+  display: flex;
+  
+}
+.social-icon a i{
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  
+  
+  color: #ffff;
+  
+  transition: transform 0.5s;
+}
+.social-icon a i:hover {
+  color: crimson;
+  transform: translateY( -5px);
+
+
+}
+
+
+
+.contact-right {
+  font-size: 30px;
+  width: 80%;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 10%;
+
+}
+.contact-right form {
+  width: 100%;
+}
+form input, textarea {
+  width: 75%;
+  border:  0;
+  outline:  none;
+  background: #262626;
+  padding:  15px;
+  margin: 15px 0;
+  color: #ffff;
+  font-size: 18px;
+  border-radius: 6px;
+
 }
 
 
